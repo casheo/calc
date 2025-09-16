@@ -400,6 +400,7 @@ h1 {
   overflow: hidden;
   backdrop-filter: blur(18px);
   margin-top: 0.4rem;
+
 }
 
 .hero__card::after {
@@ -544,6 +545,9 @@ h1 {
   position: relative;
   overflow: hidden;
   transition: transform 0.35s ease, box-shadow 0.35s ease;
+  gap: 1.1rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .tutor-card::after {
@@ -601,6 +605,7 @@ h1 {
   position: relative;
   z-index: 1;
 }
+
 
 .tutor-card__header {
   display: grid;
@@ -845,6 +850,8 @@ h1 {
 
   .hero__card {
     margin-top: 0.6rem;
+  .hero__card {
+    order: -1;
   }
 
   .contact-layout {
@@ -928,6 +935,9 @@ h1 {
 
   .experience-card img {
     height: 200px;
+  }
+  .testimonial-grid {
+    gap: 1.2rem;
   }
 }
 
